@@ -2,7 +2,6 @@ FROM kalilinux/kali-rolling
 ARG DEBIAN_FRONTEND=noninteractive
 ENV TERM xterm-256color
 RUN apt-get update && apt upgrade -y && apt-get install sudo -y
-
 ENV APP_ID= "1222520" 
 ENV API_HASH= "7e7e46cdd61842035fb191013f0a2387" 
 ENV TG_BOT_TOKEN_BF_HER= "1209934186:AAHBdrr6YAr7J_xOsE-b88VSiQeOwN-tpj0" 
